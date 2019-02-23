@@ -44,7 +44,7 @@ module.exports = (storage) =>
       const startTime = process.hrtime();
 
       logs.forEach(function (entry) {
-        Logger.send({ message: entry });
+        Logger.send({ message: entry, metadata: {time: entry.date} });
       });
 
       logger.info(`Sending ${logs.length} logs to Splunk...`);
