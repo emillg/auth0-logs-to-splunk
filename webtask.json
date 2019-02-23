@@ -1,9 +1,9 @@
 {
-  "title": "Auth0 Logs to Splunk",
-  "name": "elux-auth0-logs-to-splunk",
+  "title": "Auth0 Logs to Splunk (customized)",
+  "name": "auth0-logs-to-splunk-customized",
   "version": "2.2.0",
   "preVersion": "2.0.3",
-  "author": "elux",
+  "author": "auth0-customized",
   "description": "This extension will take all of your Auth0 logs and export them to Splunk",
   "type": "cron",
   "initialUrlPath": "/login",
